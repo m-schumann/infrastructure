@@ -4,7 +4,7 @@ variable "region" {
     default = "n1-standard-1"
 }
 variable "credentials_file" {
-    default = "credentials.json"
+    default = "/Users/michael/pilsoa_gcp_terraform.json"
 }
 
 variable "network_name" {
