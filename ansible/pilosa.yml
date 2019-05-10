@@ -161,7 +161,7 @@
         dest: "/home/{{ ansible_user }}/go/src/github.com/pilosa/pilosa"
         repo: "{{ pilosa_repo }}"
         version: "{{ pilosa_version }}"
-		force: yes
+        force: yes
       vars:
         pilosa_repo: https://github.com/pilosa/pilosa.git
         pilosa_version: master
