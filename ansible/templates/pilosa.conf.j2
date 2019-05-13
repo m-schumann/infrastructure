@@ -1,5 +1,5 @@
 bind = "{{ private_ip }}:10101"
-advertise = "{{ pilosa_public_ip }}:10101"
+advertise = "{{ ansible_host }}:10101"
 
 max-file-count=900000
 max-map-count=900000
